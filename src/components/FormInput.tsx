@@ -47,6 +47,7 @@ const FormInput: React.FC<Props> = ({ ...props }) => {
             role='btn'
             fullWidth
             onClick={handleclick}
+            disabled={name === '' ? true : false}
           >
             Get
           </Button>

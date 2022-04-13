@@ -15,7 +15,20 @@ describe('Form input test', () => {
 
   test('input changes', () => {
     const component = render(<FormInput navigate={undefined} />);
-
     expect(component).toMatchSnapshot();
   });
+  test('render formInput without crash', () => {
+    render(<FormInput navigate={undefined} />);
+    expect(screen.getByRole('btn')).toBeInTheDocument();
+    screen.debug();
+  });
 });
+
+/*
+ test('render formInput without crash', () => {
+    const mockfun = jest.fn();
+    render(<FormInput navigate={mockfun} />);
+    fireEvent.click(screen.getByRole('btn'));
+    expect(mockfun).toHaveBeenCalled();
+  });
+  */
