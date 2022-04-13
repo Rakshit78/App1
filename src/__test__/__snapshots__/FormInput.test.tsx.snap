@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form input test input changes 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "height": "100vh",
+      "placeItems": "center",
+      "width": "100vw",
+    }
+  }
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthSm css-cuefkz-MuiContainer-root"
+    style={
+      Object {
+        "background": "#e5e5e5",
+        "borderRadius": "14px",
+        "padding": "14px",
+      }
+    }
+  >
+    <div
+      className="MuiBox-root css-1isemmb"
+    >
+      <h5
+        className="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        style={
+          Object {
+            "opacity": "0.5",
+          }
+        }
+      >
+        Search Country
+      </h5>
+    </div>
+    <div
+      className="MuiBox-root css-10wfmn8"
+    >
+      <div
+        className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+        role="takeinput"
+      >
+        <label
+          className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink={false}
+          htmlFor=":r0:"
+          id=":r0:-label"
+        >
+          Input
+        </label>
+        <div
+          className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id=":r0:"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter Coutry Name"
+            required={false}
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-1ftyaf0"
+            >
+              <span>
+                Input
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root css-10wfmn8"
+    >
+      <button
+        className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-fullWidth MuiButtonBase-root  css-1fu7jd5-MuiButtonBase-root-MuiButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="btn"
+        tabIndex={0}
+        type="button"
+      >
+        Get
+      </button>
+    </div>
+  </div>
+</div>
+`;
