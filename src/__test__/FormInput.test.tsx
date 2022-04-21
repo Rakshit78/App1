@@ -28,6 +28,14 @@ describe('Form input test', () => {
   });
   test('input changes', () => {
     render(<FormInput navigate={undefined} />);
+    expect(screen.getByText('Search Country')).toBeInTheDocument();
+  });
+  test('input changes', () => {
+    render(<FormInput navigate={undefined} />);
+    expect(screen.getByText('Get')).toBeInTheDocument();
+  });
+  test('input changes', () => {
+    render(<FormInput navigate={undefined} />);
     const component = fireEvent.change(screen.getByLabelText('Input'), {
       target: { value: 'rakshit' },
     });
