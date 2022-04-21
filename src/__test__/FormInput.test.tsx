@@ -22,6 +22,17 @@ describe('Form input test', () => {
     expect(screen.getByRole('btn')).toBeInTheDocument();
     screen.debug();
   });
+  test('render formInput without crash', () => {
+    render(<FormInput navigate={undefined} />);
+    expect(screen.getByRole('btn')).toBeDisabled();
+  });
+  test('input changes', () => {
+    render(<FormInput navigate={undefined} />);
+    const component = fireEvent.change(screen.getByLabelText('Input'), {
+      target: { value: 'rakshit' },
+    });
+    expect(component).toBe(true);
+  });
 });
 
 /*
