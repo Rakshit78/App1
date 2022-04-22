@@ -12,7 +12,7 @@ import { Box } from '@mui/system';
 import { useState, useEffect } from 'react';
 import Wdetails from './Wdetail';
 type Props = {
-  sparams: any;
+  sparams?: any;
   navigate: any;
 };
 const Details: React.FC<Props> = ({ ...props }) => {
@@ -36,7 +36,7 @@ const Details: React.FC<Props> = ({ ...props }) => {
   };
 
   useEffect(() => {
-    getdata(props.sparams.get('name'));
+    getdata(props.sparams?.get('name'));
   }, []);
   if (error) {
     return (
